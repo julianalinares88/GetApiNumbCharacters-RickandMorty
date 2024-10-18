@@ -1,0 +1,38 @@
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 20rem;
+    margin: 20px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-info {
+    padding: 15px;
+}
+
+.card-info h2 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #1c9110;
+}
+
+.card-info p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    color: #666;
+}
+.label {
+    color: #a05164; /* Cambia este color al que desees */
+    font-weight: bold; /* Opcional: hace que el texto sea negrita */
+}

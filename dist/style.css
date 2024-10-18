@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+}
+
+body {
+    background-image: url(https://images7.alphacoders.com/133/1335145.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative; 
+    background-attachment: fixed;
+}
+
+.container-opacity {
+    position: absolute; /* Posiciona la capa de opacidad */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.545);
+    z-index: -1; /* Asegura que esté encima de la imagen de fondo */
+    position: fixed;
+}
+
+.conatiner-input {
+    position: relative; /* Para asegurar que el contenido esté por encima de la capa de opacidad */
+    z-index: 2; /* Asegura que el contenido esté encima de la capa de opacidad */
+    color: white; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.input {
+    width: 30rem;
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 8px;
+}
+
+.buttoninput-container {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    width: 10rem;
+    border: none;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 2px;
+    background-color: #1c9110;
+    color: whitesmoke;
+}
+
+.buttoninput-container {
+    width: 25rem;
+    border-radius: 15px;
+}
+h1{
+    color: #b6d8e9;
+    font-size: 3rem;
+    text-shadow: 2px 0px 7px #3d4b41;
+}
+.characters-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
